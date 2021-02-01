@@ -1,10 +1,10 @@
 # TAG
 -----------------Dataset------------------------
-The dataset should be be put in /Data/Raw_Data
-train_set.json
-test_set.json
-train_set_rand.json
-test_set_rand.json
+The dataset should be be put in /Data/Raw_Data\\
+train_set.json\\
+test_set.json\\
+train_set_rand.json\\
+test_set_rand.json\\
 
 ------------------Code-------------------------
 For Graph-Graph Matching model:
