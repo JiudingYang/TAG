@@ -1,6 +1,10 @@
 # TAG
 -----------------Dataset------------------------
 
+You could download the dataset from here:
+
+https://www.dropbox.com/sh/bpcpnxfhvpfuob3/AADPF_ExSgToZZTMrD8RcYnSa?dl=0
+
 The dataset should be be put in /Data/Raw_Data
 
 train_set.json
@@ -10,6 +14,8 @@ test_set.json
 train_set_rand.json
 
 test_set_rand.json
+
+The original word vector file is too large, so a sub-dict of all words that show up in the train set and the test set are provided in /Embedding_Dict folder
 
 ------------------Code-------------------------
 
@@ -41,7 +47,7 @@ Modify /Model/matching.py to use CLS or Bi-LSTM for encoding
 
 ------------------------------------------------
 
-The original word vector file is too large, so a sub-dict of all words that show up in the train set and the test set are provided in /Embedding_Dict folder
+
 
 ------------------------------------------------
 
