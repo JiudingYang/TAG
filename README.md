@@ -1,5 +1,6 @@
 # TAG
------------------Dataset------------------------
+-----------------------------------------
+Dataset:
 
 You could download the dataset from here:
 
@@ -17,7 +18,8 @@ test_set_rand.json
 
 The original word vector file is too large, so a sub-dict of all words that show up in the train set and the test set are provided in /Embedding_Dict folder
 
-------------------Code-------------------------
+-------------------------------------------
+Code:
 
 For Graph-Graph Matching model:
 
@@ -44,9 +46,6 @@ Main parameters are stored in BERT_Main.py
 Run the .py file for training
 
 Modify /Model/matching.py to use CLS or Bi-LSTM for encoding
-
-------------------------------------------------
-
 
 
 ------------------------------------------------
