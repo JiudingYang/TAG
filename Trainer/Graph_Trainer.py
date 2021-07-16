@@ -45,7 +45,7 @@ def TAG_Trainer(configs=None):
     train_data_num = int(total*0.875)
     criterion = nn.BCEWithLogitsLoss().to(DEVICE)
     #decay = 1 - pow(TrainConfig.decay_factor, 1 / (train_data_num * TrainConfig.epoch))
-    decay = 0.001
+    decay = 0.0001
     optimizer = optim.Adam(Graph_Model.parameters(), eps=1e-8, lr=TrainConfig.lr, weight_decay=decay)
     # schedule learning rate
     scheduler = None
